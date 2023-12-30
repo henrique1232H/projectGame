@@ -8,7 +8,6 @@ const moveToLeft = () => {
 
     window.addEventListener("keydown", (e) => {
 
-
         if(e.key === "d") {
             moveSet.push("front")
             pixel = pixel + 5;
@@ -45,5 +44,18 @@ const moveToRight = () => {
     })
 }
 
+const jump = () => {
+    window.addEventListener("keydown", (e) => {
+        if(e.key === "w") {
 
-export {moveToLeft, moveToRight}
+            takeQuerySelector.mario.classList.add("jumpMario");
+
+            setTimeout(() => {
+                takeQuerySelector.mario.classList.remove("jumpMario")
+            }, 500)
+        }
+    })
+}
+
+
+export {moveToLeft, moveToRight,jump}

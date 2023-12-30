@@ -18,10 +18,28 @@
 .mario {
     height: 6rem;
     width: 6rem;
-    background: red;
     background-size: contain;
     background-image: url("../svg/mario.svg");
     background-repeat: no-repeat ;
     position: absolute;
     bottom: 2rem;
+}
+
+
+.jumpMario {
+    animation: jump 250ms forwards ;
+}
+
+@keyframes jump {
+    0% {
+        transform: translateY(0);
+    }
+
+    50% {
+        transform: translateY(-90%);
+    }
+
+    100% {
+        transform: translateY(0);
+    }
 }
