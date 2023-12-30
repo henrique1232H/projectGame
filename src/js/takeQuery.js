@@ -5,6 +5,10 @@ const takeQuery = () => {
     const menu = document.querySelector(".menu");
     const shadow = document.querySelector(".shadow")
     const audioStage = document.querySelector("audio");
+    const buttonMenuNodeList = document.querySelectorAll("button");
+    const form = document.querySelector("form");
+
+    const buttonMenu = Array.from(buttonMenuNodeList)
 
     return {
         mario,
@@ -12,7 +16,9 @@ const takeQuery = () => {
         stage,
         audioStage,
         menu,
-        shadow
+        shadow,
+        buttonMenu,
+        form
     }
 }
 

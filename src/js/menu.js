@@ -1,5 +1,17 @@
 import takeQuerySelector from "./takeQuery.js";
 
 const menu = () => {
-    takeQuerySelector.
+
+    takeQuerySelector.stage.classList.add("hide");
+
+    takeQuerySelector.form.onsubmit = (e) => {
+        e.preventDefault();
+
+        takeQuerySelector.stage.classList.remove("hide");
+        takeQuerySelector.shadow.classList.add("hide")
+
+    } 
+    
 }
+
+menu()

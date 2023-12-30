@@ -46,6 +46,11 @@
     animation: jump 250ms forwards ;
 }
 
+.hide {
+    display: none;
+    visibility: hidden;
+}
+
 @keyframes jump {
     0% {
         transform: translateY(0);
