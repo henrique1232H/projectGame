@@ -14,6 +14,22 @@
     position: relative;
 }
 
+.shadow {
+    position: absolute;
+    inset: 0;
+    background: rgba(0,0,0,0.5);
+    display: grid;
+    place-content: center;
+
+}
+
+.menu {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
 
 .mario {
     height: 6rem;
