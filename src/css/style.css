@@ -8,10 +8,29 @@
     font-size: 62.5%;
 }
 
+body {
+    height: 100vh;
+    background-color: #0093E9;
+    background-image: linear-gradient(160deg, #0093E9 0%, #80D0C7 100%);
+
+}
+
+form div {
+    position: relative;
+}
+
+form label {
+    height: 1px;
+    width: 1px;
+    overflow: hidden;
+    position: absolute;
+}
+
 .stage {
     width: 100%;
     height: 100vh;
     position: relative;
+    
 }
 
 .shadow {
