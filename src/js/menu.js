@@ -7,7 +7,7 @@ const menu = () => {
     takeQuerySelector.form.onsubmit = (e) => {
         e.preventDefault();
 
-        //takeQuerySelector.audioStage.play();
+        takeQuerySelector.audioStage.play();
         takeQuerySelector.stage.classList.remove("hide");
         takeQuerySelector.shadow.classList.add("hide")
 
