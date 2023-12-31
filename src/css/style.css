@@ -70,6 +70,12 @@ form label {
     visibility: hidden;
 }
 
+.stage form {
+    text-align: end;
+    margin-right: 5rem;
+    padding-top: 3rem;
+}
+
 @keyframes jump {
     0% {
         transform: translateY(0);
